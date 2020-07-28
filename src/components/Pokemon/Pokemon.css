@@ -25,6 +25,10 @@ li {
     cursor: pointer;
 }
 
+.pokemon-card:hover .pokemon-img {
+    transform: scale(1.1);
+}
+
 .poke-name {
     flex: 0 0 70%;
     color: rgba(255,255,255,.9);
@@ -53,6 +57,7 @@ li {
 
 .pokemon-img {
     width: 140px;
+    transition: transform .5s ease;
 }
 
 
