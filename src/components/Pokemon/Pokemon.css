@@ -29,6 +29,12 @@ li {
     transform: scale(1.1);
 }
 
+.pokemon-card:hover .poke-name {
+    animation: colortext .5s ease;
+}
+
+
+
 .poke-name {
     flex: 0 0 70%;
     color: rgba(255,255,255,.9);
@@ -77,4 +83,20 @@ li {
 
 .grass {
     background-color: rgb(112,213,178);
+}
+
+@keyframes colortext {
+    0% {
+        color: white;
+    }
+
+    30% {
+        color: #57a2dc;
+    }
+    50% {
+        color: #9153be;
+    }
+    100% {
+        color: #de6cae;
+    }
 }
