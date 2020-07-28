@@ -1,0 +1,30 @@
+.pokemon-card {
+    width: 200px;
+    border: 1px red solid;
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.poke-name {
+    flex: 0 0 70%;
+}
+
+.poke-id {
+    flex: 0 0 10%;
+    padding-right: 20px;
+}
+
+.pokemon-body {
+    width: 100%;
+    border: solid 1px salmon;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pokemon-img {
+    width: 140px;
+}

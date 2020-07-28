@@ -15,6 +15,7 @@ class App extends Component {
     console.log(this.state.pokemons);
     return (
       <div className="App">
+        <h1>My Pokedex</h1>
         <PokeList pokeData={this.state.pokemons}/>
       </div>
     );

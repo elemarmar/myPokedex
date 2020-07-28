@@ -1,17 +1,18 @@
 import React from 'react';
+import './Pokemon.css';
 
 
 const Pokemon = (props) => {
 
     // dynamic types
-    let pokeTypes = props.types.map(type => {
+    const pokeTypes = props.types.map(type => {
         return <li key={type}>{type}</li>
     })
 
     return (
         <div className="pokemon-card">
-            <h3>{props.name}</h3>
-            <span>{props.id}</span>
+            <h3 className="poke-name">{props.name}</h3>
+            <span className="poke-id">{props.id}</span>
             <div className="pokemon-body">
                 <ul className="pokemon-types">
                     {pokeTypes}
@@ -23,11 +24,5 @@ const Pokemon = (props) => {
         </div>
         )
 }
-
-
-
-// types={pokemon.types}
-
-
 
 export default Pokemon;

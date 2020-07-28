@@ -1,5 +1,7 @@
 import React from 'react';
+
 import Pokemon from '../Pokemon/Pokemon';
+import './PokeList.css'
 
 const PokeList = (props) => {
 
@@ -12,9 +14,10 @@ const PokeList = (props) => {
             picURL={pokemon.url} />
     });
 
-    console.log(transformedPokemons);
-
-    return (transformedPokemons)
+    return (
+        <div className="pokelist">
+            {transformedPokemons}     
+        </div>)
 }
 
 export default PokeList;
