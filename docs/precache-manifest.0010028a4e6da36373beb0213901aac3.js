@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4ae9d782eab6ab04f84fd8db378f9f93",
+    "revision": "f490b441abca13749e9057691c37be4f",
     "url": "./index.html"
   },
   {
-    "revision": "60d534d2fae1bc778232",
-    "url": "./static/css/main.b1b3afa3.chunk.css"
+    "revision": "4c0476ca83dc423707bb",
+    "url": "./static/css/main.1b53f6bb.chunk.css"
   },
   {
     "revision": "bbaded78b7735f98de97",
@@ -16,11 +16,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "./static/js/2.379becab.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "60d534d2fae1bc778232",
-    "url": "./static/js/main.15d592f9.chunk.js"
+    "revision": "4c0476ca83dc423707bb",
+    "url": "./static/js/main.bc04814c.chunk.js"
   },
   {
     "revision": "501244125357a2186fb9",
     "url": "./static/js/runtime-main.fef540f9.js"
+  },
+  {
+    "revision": "bc5a5cba28f20b59173bb35ae0500909",
+    "url": "./static/media/pokegif-unscreen.bc5a5cba.gif"
   }
 ]);
