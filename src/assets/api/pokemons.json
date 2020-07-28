@@ -2,21 +2,21 @@
     {
       "id": 1,
       "name": "bulbasaur",
-      "types": ["poison", "grass"],
+      "types": ["grass", "poison"],
       "evolution": null,
       "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png"
     },
     {
       "id": 2,
       "name": "ivysaur",
-      "types": ["poison", "grass"],
+      "types": ["grass", "poison"],
       "evolution": "bulbasaur",
       "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/2.png"
     },
     {
       "id": 3,
       "name": "venusaur",
-      "types": ["poison", "grass"],
+      "types": ["grass", "poison"],
       "evolution": "ivysaur",
       "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/3.png"
     },
@@ -37,7 +37,7 @@
     {
       "id": 6,
       "name": "charizard",
-      "types": ["flying", "fire"],
+      "types": ["fire", "flying"],
       "evolution": "charmeleon",
       "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/6.png"
     },
